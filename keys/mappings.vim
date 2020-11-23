@@ -42,3 +42,8 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" Compailer c++
+
+nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
+nnoremap <C-x> :!./%:r.out

@@ -2,7 +2,6 @@
 let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
-set encoding
 set relativenumber
 set title
 set linespace=12
